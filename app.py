@@ -16,7 +16,7 @@ if __name__ == "__main__":
             },
             'logging': True,
         },
-        service_name='sample-jaeger',
+        service_name='sample-jaeger-agent',
         validate=True,
     )
     # this call also sets opentracing.tracer
